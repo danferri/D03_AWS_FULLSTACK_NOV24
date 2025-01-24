@@ -33,9 +33,13 @@ const Products = () => {
     const fetchData = async () => {
       try {
         const response = await api.get(`/plants/${id}`);
-        setPlant(response.data);
+        setPlant(response.data as Plant);
       } catch (error) {
-        setError((error as any).message);
+        if (error instanceof Error) {
+          setError(error.message);
+        } else {
+          setError("An unknown error occurred");
+        }
       }
     };
 
