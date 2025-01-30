@@ -23,7 +23,7 @@ const AllProducts: React.FC = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("http://localhost:5000/plantsList")
+    fetch("http://18.219.66.53:3000/plantsList")
       .then((response) => response.json())
       .then((data) => {
         setPlants(data);

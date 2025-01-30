@@ -21,7 +21,7 @@ const Form = ({ onSuccess }: FormProps) => {
   const [plantTypes, setPlantTypes] = useState<PlantType[]>([]);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/plantTypes")
+    axios.get("http://18.219.66.53:3000/plantTypes")
       .then((response) => {
         setPlantTypes(response.data as PlantType[]);
       })
@@ -43,7 +43,7 @@ const Form = ({ onSuccess }: FormProps) => {
       const updatedLabels = [...currentLabels, selectedPlantType];
 
       const response = await axios.post(
-        "http://localhost:5000/plants",
+        "http://18.219.66.53:3000/plants",
         { ...data, labels: updatedLabels }
       );
       console.log("Product successfully sent to backend:", response.data);
