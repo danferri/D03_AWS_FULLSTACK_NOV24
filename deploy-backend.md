@@ -219,4 +219,4 @@ Se precisar atualizar o backend no futuro:
    pm2 restart stackovershop-api
    ```
 
-Agora sua API está **pronta para produção**! 🚀
+Agora a API está **pronta para produção**! 🚀
