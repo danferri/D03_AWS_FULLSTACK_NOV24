@@ -1,6 +1,6 @@
 # Projeto - Scholarship Fullstack NodeJS/React com AWS
 
-🚀 **Projeto desenvolvido no programa de Scholarship Fullstack NodeJS/React com AWS da CompassUOL** ![CompassUOL](https://img.shields.io/badge/CompassUOL-black?style=for-the-badge)
+🚀 **Projeto desenvolvido no programa de Scholarship Fullstack NodeJS/React com AWS da CompassUOL**
 
 👤 **Autor:** Daniel Ferri
 
@@ -19,14 +19,14 @@
 
 ## 📄 Sobre o Projeto
 
-Este projeto é parte de um desafio prático proposto no programa de Scholarship da CompassUOL, com foco no desenvolvimento Fullstack utilizando as tecnologias mais modernas do mercado:
+Este projeto é parte de um desafio prático proposto no programa de Scholarship da CompassUOL, com foco no desenvolvimento Fullstack utilizando as tecnologias mais modernas do mercado. A primeira parte, chamado Desafio 02, focou no desenvolvimento de um Frontend, um BackEnd e um Banco de dados rodando em localhost. Nessa segunda parte, chamada Desafio 03 foi proposto rodar o projeto deselvolvido no Desafio 02 na AWS. As tecnologias usadas nos dois desafios foram:
 
-- **Backend:** Desenvolvido em **Node.js** para criação de APIs escaláveis.
-- **Frontend:** Interface criada com **React.js**, garantindo uma experiência de usuário dinâmica e responsiva.
+- **BackEnd:** Desenvolvido em **Node.js** para criação de APIs escaláveis.
+- **FrontEnd:** Interface criada com **React.js**, garantindo uma experiência de usuário dinâmica e responsiva.
 - **Banco de Dados:** Utilização do banco **MongoDB** para armazenamento de dados de forma eficiente e escalável.
 - **AWS Services:**
-  - **EC2:** Hospedagem e execução do servidor backend e do Banco de dados em MongoDB.
-  - **S3:** Hospedagem do site frontend em um bucket configurado como site estático.
+  - **EC2:** Hospedagem e execução do servidor BackEnd e do Banco de dados em MongoDB.
+  - **S3:** Hospedagem do site FrontEnd em um bucket configurado como site estático.
 
 ---
 
@@ -40,6 +40,6 @@ Este projeto é parte de um desafio prático proposto no programa de Scholarship
 ## ✨ Diferenciais
 
 - Utilização de serviços escaláveis e confiáveis da AWS.
-- Integração backend e frontend para oferecer uma aplicação completa.
+- Integração BackEnd e FrontEnd para oferecer uma aplicação completa.
 - Banco de dados em **MongoDB** para maior flexibilidade e desempenho.
 - Desenvolvimento com foco em boas práticas de código e otimização.
