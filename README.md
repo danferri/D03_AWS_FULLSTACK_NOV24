@@ -19,7 +19,7 @@
 
 ## 📄 Sobre o Projeto
 
-Este projeto é parte de um desafio prático proposto no programa de Scholarship da CompassUOL, com foco no desenvolvimento Fullstack utilizando as tecnologias mais modernas do mercado. A primeira parte, chamado Desafio 02, focou no desenvolvimento de um Frontend, um BackEnd e um Banco de dados rodando em localhost. Nessa segunda parte, chamada Desafio 03 foi proposto rodar o projeto deselvolvido no Desafio 02 na AWS. As tecnologias usadas nos dois desafios foram:
+Este projeto é parte de um desafio prático proposto no programa de Scholarship da CompassUOL, com foco no desenvolvimento Fullstack utilizando as tecnologias mais modernas do mercado. A primeira etapa, chamada Desafio 02, teve como objetivo desenvolver um Frontend, um BackEnd e um Banco de Dados para um aplicação, todos rodando em localhost. Nessa segunda etapa, chamada Desafio 03, foi proposto executar o projeto desenlvolvido no Desafio 02 na AWS. As tecnologias usadas nos desafios foram:
 
 - **BackEnd:** Desenvolvido em **Node.js** para criação de APIs escaláveis.
 - **FrontEnd:** Interface criada com **React.js**, garantindo uma experiência de usuário dinâmica e responsiva.
